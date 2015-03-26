@@ -34,7 +34,10 @@
         </asp:SqlDataSource>
     
    
-        <asp:DetailsView ID="DetailsView1" runat="server" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="recipe_Id" DataSourceID="SqlDataSource1" Height="300px" Width="426px">
+       <span class="deleted"> <asp:Label ID="lbl_deletedRecipe" runat="server"></asp:Label></span>
+    
+   
+        <asp:DetailsView ID="DetailsView1" runat="server" AllowPaging="True" AutoGenerateRows="False" DataKeyNames="recipe_Id" DataSourceID="SqlDataSource1" Height="300px" Width="538px">
             <Fields>
                 <asp:BoundField DataField="recipe_Name" HeaderText="Recipe Name" SortExpression="recipe_Name" />
                 <asp:BoundField DataField="submitted_By" HeaderText="Submitted By" SortExpression="submitted_By" />
