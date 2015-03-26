@@ -1,8 +1,8 @@
 ﻿
 
-#form1{border:solid;
+body{border:solid;
+     background-color:#D2B48C;
       border-color:black;
-      background-color:#D2B48C;
      padding:5px;
      margin:5px;
      height:700px;
@@ -10,9 +10,7 @@
 
 #container{align-content:center;}
 
-div{
 
-}
 #footer{text-align:center;
          margin:50px;
       padding:50px;
@@ -60,6 +58,4 @@ h2{font-size:20px;
 .deleted{color:red;
          font-style:italic;
 }
-#DetailsView4{   margin-right:20px;
-                 margin-left:226px;
-}
+
